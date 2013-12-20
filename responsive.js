@@ -32,7 +32,7 @@
 				i == 0 ? $html.removeClass('w' + prevWidth) : $html.addClass('w' + prevWidth);
 			}
 		}
-	}
+	} 
 
 	resizeDoc();
 
