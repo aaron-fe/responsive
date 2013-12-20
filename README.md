@@ -7,6 +7,6 @@ responsive
 2. use media query in firefox, chrome, safari, opera
 3. use it with the IE if statement
 
-  \<!--[if lte IE 8]>
-  \<script src="src/responsive.js"></script>
+  \<!--[if lte IE 8]><br/>
+  \<script src="src/responsive.js"></script><br />
   \<![endif]-->
