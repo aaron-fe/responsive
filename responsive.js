@@ -8,17 +8,17 @@
 
 (function(w){
 	var $w = $(w),
-		responseSizes = [990, 1200, 1600], //all the sizes need to be responsed
-		minScreenWidth = 0;     //minimum screen size
-		maxScreenWidth = 5000;  //maximum screen size
-
+			responseSizes = [990, 1200, 1600], //all the sizes need to be responsed
+			minScreenWidth = 0;     //minimum screen size
+			maxScreenWidth = 5000;  //maximum screen size
+			
 	function resizeDoc() {
 		var ww = $w.width(),
-			$html = $('html'),
-			len = responseSizes.length,
-			i = 0,
-			prevWidth,
-			curWidth;
+				$html = $('html'),
+				len = responseSizes.length,
+				i = 0,
+				prevWidth,
+				curWidth;
 		
 		for (; i <= len; i++) {
 			prevWidth = (i !== 0 ? responseSizes[i - 1] : minScreenWidth);
