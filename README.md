@@ -1,7 +1,7 @@
 responsive
 ==========
 
-###A js plugin for responsive page design for IE8-###
+###A javascript plugin for responsive page design for IE8-###
 
 1. jquery is required
 2. use media query in firefox, chrome, safari, opera
