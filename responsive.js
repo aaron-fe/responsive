@@ -8,9 +8,9 @@
 
 (function(w){
 	var $w = $(w),
-			responseSizes = [990, 1200, 1600], //all the sizes need to be responsed
-			minScreenWidth = 0;     //minimum screen size
-			maxScreenWidth = 5000;  //maximum screen size
+		responseSizes = [990, 1200, 1600], //all the sizes need to be responsed
+		minScreenWidth = 0;                //minimum screen size
+		maxScreenWidth = 5000;             //maximum screen size
 			
 	function resizeDoc() {
 		var ww = $w.width(),
