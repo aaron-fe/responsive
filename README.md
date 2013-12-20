@@ -1,3 +1,6 @@
+responsive.js
+==========
+
 ###A javascript plugin for responsive page design for IE8-###
 
 1. jquery is required
